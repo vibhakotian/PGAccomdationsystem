@@ -1,0 +1,32 @@
+.card {
+	/*border-color: grey;
+	border-size: -1px;
+	border-style: solid;
+	
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    background-color: transparent;
+    border-color: black;*/
+	
+	
+
+
+}
+#owner{
+	float:right;
+	margin-right: -200%;
+
+}
+#house{
+	margin-left: 20%;
+}
+.container
+{
+	margin-top:80%;
+	margin-left:20%;
+}
+.card:hover
+{
+-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}

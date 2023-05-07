@@ -1,0 +1,24 @@
+**Database Name: house_rental**
+
+**Recommended PHP Version 5.6.3**
+
+
+**Owner's Login** 
+
+Email: dixita@gmail.com
+Password: password
+
+Email: vibha@gmail.com
+Password: password
+
+Email: srushti@gmail.com
+Password: password
+
+Email: kshitija@gmail.com
+Password: password
+
+
+**Tenant Login**
+
+Email: priyanka@gmail.com
+Password: password
