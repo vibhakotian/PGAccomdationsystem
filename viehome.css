@@ -1,0 +1,146 @@
+.header input{
+  color: #fff;
+}
+h1 {
+  color: #f4ebeb;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+  text-shadow: 2px 2px 2px rgba(184, 196, 229, 0.867);
+
+  background: linear-gradient(to top right,#d1d9dd,#0B2447);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+#facilities {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+#facilities li {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+}
+
+#facilities li i {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+#facilities li:hover i {
+  color: #93BFCF;
+  transform: scale(1.2);
+}
+.col-md-6 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.col-md-6 li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.col-md-6 li:last-child {
+  border-bottom: none;
+}
+
+.col-md-6 li strong {
+  font-weight: bold;
+}
+
+.col-md-6 li span {
+  font-weight: normal;
+}
+
+.col-md-6 li:before {
+  content: "\2022";
+  color: #6096B4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.col-md-6 li:hover {
+  background-color: #EEE9DA;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-6 li:hover:before {
+  color: #fff;
+  background-color: #6096B4;
+}
+
+.col-md-6 h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #6096B4;
+}
+
+.col-md-6 ul:before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #6096B4;
+  margin-bottom: 20px;
+}
+
+.col-md-6 ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-md-6 li .fa {
+  margin-right: 10px;
+  color: #6096B4;
+}
+
+.col-md-6 li strong .fa {
+  margin-right: 5px;
+  color: #555;
+}
+
+.col-md-6 li span .fa {
+  margin-right: 5px;
+  color: #777;
+}
+.col-md-6 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  contrast: 1.2;
+  brightness: 0.9;
+}
+
+.col-md-6 img:focus {
+  outline: none;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
+  contrast: 1.2;
+  brightness: 1;
+}
